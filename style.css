@@ -1,0 +1,78 @@
+
+#header{
+    display: flex;
+    height: 520px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    color: #cac8c8;
+    margin-bottom: 0;
+   }
+
+
+   .gradient-backround{
+    background: linear-gradient(200deg, #000000, #9b999a, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  
+  }
+  
+  h1,h2{
+    
+    text-align: center;
+    
+    
+  }
+  
+  h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  
+  }
+
+
+  .sofadi-one-regular {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+  
+ 
+  
+  .kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color:white
+  }
+  
+  #footer{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    color: #cac8c8;
+    margin-bottom: 0;
+   }
+
+
